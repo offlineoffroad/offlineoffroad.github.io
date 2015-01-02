@@ -8,6 +8,7 @@
     {% include header.html %}
 
     <div class="page-content">
+      <div class="elevation{% if page.map contains 'tune-up' %} elevation--{% endif %}{% if page.map contains 'rides' %} elevation--{% endif %}{% if page.map contains 'about' %} elevation--{% endif %}{% if page.map contains 'about' %} elevation--{% endif %}{% if page.map contains 'home' %} elevation--barbados{% endif %}"></div>
       <div class="wrapper">
         {{ content }}
       </div>
