@@ -1,0 +1,122 @@
+body {
+	background-color: rgb(6, 61, 3);
+	margin: 0;
+	font-size: 16px;
+	line-height: 1.5;
+
+	color: #fff;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	padding: 20px;
+
+	/* Grid Background*/
+	background-image: linear-gradient(rgba(11, 39, 9, .3) 2px, transparent 2px),
+	linear-gradient(90deg, rgba(11, 39, 9, .3) 2px, transparent 2px),
+	linear-gradient(rgba(11, 39, 9, .5) 1px, transparent 1px),
+	linear-gradient(90deg, rgba(11, 39, 9, .5) 1px, transparent 1px);
+	background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+	background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px
+}
+body :first-child {
+	margin-top: 0;
+}
+a {
+	color: #fff;
+}
+small {
+	font-size: 13px;
+}
+h1 {
+	font-size: 1.9rem;
+}
+h2 {
+	font-size: 1.6rem;
+}
+h3 {
+	font-size: 1.3rem;
+}
+abbr {
+	border-bottom: 1px solid white;
+		font-style: italic;
+}
+.footer,
+.hero,
+.hero-less {
+	text-align: center;
+}
+.hero {
+	font-size: 50px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.hero-less {
+	font-size: 30px;
+	margin-top: 0;
+}
+.cta {
+	padding: 3px 6px;
+	background-color: #0E4B23;
+	display: inline-block;
+	text-decoration: none;
+	border-bottom: 3px solid transparent;
+}
+.cta:hover {
+	border-color: #fff; 
+}
+.logo {
+	position: relative;
+	text-align: center;
+	margin: 30px auto 50px;
+	display: table;
+	overflow: hidden;
+}
+.svg {
+	display: table-cell;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+.svg--rotate {
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-animation: rotation 4s infinite linear;
+}
+@-webkit-keyframes rotation {
+	from {-webkit-transform: rotate(0deg);}
+	to   {-webkit-transform: rotate(359deg);}
+}
+
+@media all and (max-width:400px){
+	.logo {
+		width: 65%;
+	}
+}
+
+.elevation {
+	position: absolute;
+	z-index: -3;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 0.65;
+	margin-left: -50%;
+	background-image: url(/assets/im/elavation-barbados.svg);
+	background-size: 1142px;
+}
+.page-content {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	max-width: 800px;
+}
+.footer {
+	margin-top: 30px;
+}
+.footer small {
+	padding: .5rem;
+	border: 2px solid rgb(16, 31, 15);
+	background-color: rgba(11, 39, 9, 0.71);
+}
