@@ -12,9 +12,6 @@ permalink: pretty
 repo: https://github.com/offlineoffroad/offlineoffroad.github.io
 
 collections:
- tune-up:
+ nutrition:
   output: true
-  permalink: /:collection/:path/index.html
- rides:
-  output: true
-  permalink: /:collection/:path/index.html
+  permalink: /:collection/:path/

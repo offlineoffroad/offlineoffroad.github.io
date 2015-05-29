@@ -1,11 +1,11 @@
 body {
-	text-align: center;
 	background-color: rgb(6, 61, 3);
 	margin: 0;
+	font-size: 16px;
+	line-height: 1.5;
 
 	color: #fff;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	font-size: 25px;
 	padding: 20px;
 
 	/* Grid Background*/
@@ -26,14 +26,31 @@ small {
 	font-size: 13px;
 }
 h1 {
-	font-size: 50px;
+	font-size: 1.9rem;
 }
 h2 {
-	font-size: 30px;
+	font-size: 1.6rem;
+}
+h3 {
+	font-size: 1.3rem;
 }
 abbr {
 	border-bottom: 1px solid white;
 		font-style: italic;
+}
+.footer,
+.hero,
+.hero-less {
+	text-align: center;
+}
+.hero {
+	font-size: 50px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.hero-less {
+	font-size: 30px;
+	margin-top: 0;
 }
 .cta {
 	padding: 3px 6px;
@@ -50,6 +67,7 @@ abbr {
 	text-align: center;
 	margin: 30px auto 50px;
 	display: table;
+	overflow: hidden;
 }
 .svg {
 	display: table-cell;
@@ -85,15 +103,20 @@ abbr {
 	background-position: center;
 	opacity: 0.65;
 	margin-left: -50%;
-}
-.elevation--barbados {
 	background-image: url(/assets/im/elavation-barbados.svg);
 	background-size: 1142px;
-	
 }
-
-h1,
-h2 {
-	margin-top: 0;
-	line-height: 1;
+.page-content {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	max-width: 800px;
+}
+.footer {
+	margin-top: 30px;
+}
+.footer small {
+	padding: .5rem;
+	border: 2px solid rgb(16, 31, 15);
+	background-color: rgba(11, 39, 9, 0.71);
 }
