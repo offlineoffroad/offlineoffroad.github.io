@@ -7,11 +7,14 @@ github_username:  benjaminparry
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /rides/:year/:month/:day/:title
 
 repo: https://github.com/offlineoffroad/offlineoffroad.github.io
 
 collections:
  nutrition:
+  output: true
+  permalink: /:collection/:path/
+ rides:
   output: true
   permalink: /:collection/:path/
