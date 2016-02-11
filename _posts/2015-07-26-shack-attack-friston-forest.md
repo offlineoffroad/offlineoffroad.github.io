@@ -10,7 +10,7 @@ Fortunately the good folks at **[Lewes Cycle Shack](http://lewescycleshack.co.uk
 
 This had been in the diary for a few weeks now and although the weather forecast went from bad to worse in the upcoming weeks, I wasn’t about to miss this opportunity to finally check out the woodland and shred some of the trials with a group of new riders.
 
-On the day, as always, the British weather didn’t fail to fulfil it’s promise. By the time we were all scheduled to roll out of Seaford train station the rain was in there in bucket loads. This being said spirits were high and everyone was keen to overlook this slight technicality and get exploring.
+On the day, as always, the British weather didn’t fail to fulfill it’s promise. By the time we were all scheduled to roll out of Seaford train station the rain was in there in bucket loads. This being said spirits were high and everyone was keen to overlook this slight technicality and get exploring.
 
 The group were super friendly: an equal amount of local and Lewes Cycle Shack regular riders made for a great mix of conversation, banter and tips on the day’s riding.
 
